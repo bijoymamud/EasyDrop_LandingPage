@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 
-function ShopCategory() {
+function MenShoe() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -14,7 +14,7 @@ function ShopCategory() {
         slides: { perView: 2, spacing: 5 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 6, spacing: 10 },
+        slides: { perView: 4, spacing: 10 },
       },
     },
     slides: { perView: 1 },
@@ -24,59 +24,57 @@ function ShopCategory() {
     },
   });
 
-  const Category = [
+  const menShoe = [
     {
       id: 1,
-      title: "Women Clothings",
-      img: "https://cdn-icons-png.flaticon.com/512/1461/1461362.png",
+      title: "High Quality Casual Shoes for Men ",
+      img: "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-77978,resizemode-75,msid-95892008/top-trending-products/lifestyle/check-out-casual-shoes-for-men-in-india.jpg",
     },
     {
       id: 2,
-      title: "Gadgets",
-      img: "https://cdn-icons-png.flaticon.com/512/3731/3731134.png",
+      title: "Luxury Air Force Black & White shoes",
+      img: "https://johnpyelots.co.uk/266033556/45_1_fullsize.jpg",
     },
     {
       id: 3,
-      title: "Health & Beauty",
-      img: "https://cdn-icons-png.flaticon.com/512/1005/1005769.png",
+      title: "Next Generation Rare Trainer Shoe",
+      img: "https://img.adsport.cz/data/zbozi/nike/650x550/467466.jpeg",
     },
     {
       id: 4,
-      title: "Home & Lifestyle",
-      img: "https://cdn-icons-png.flaticon.com/512/8863/8863863.png",
+      title: "High Quality Casual Shoes for Men ",
+      img: "https://phenomenon.dk/cdn/shop/files/ml610tag_2.png?v=1706785963",
     },
     {
       id: 5,
-      title: "Jewelries",
-      img: "https://cdn-icons-png.flaticon.com/512/8497/8497175.png",
+      title: "Next Generation Rare Trainer Shoe",
+      img: "https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2024/07/25053122/Best-Trail-Running-Shoes-Hoka-Speedgoat-6.jpg",
     },
     {
       id: 6,
-      title: "Kitchen Appaliances",
-      img: "https://cdn-icons-png.flaticon.com/512/7540/7540904.png",
+      title: "Adidas Shoe",
+      img: "https://www.shutterstock.com/image-photo/kent-uk-01012023-adidas-originals-600nw-2278627365.jpg",
     },
   ];
 
   return (
   
 
-    <section className="mb-20 pb-20 ">
+    <section className="mb-20 pb-20">
          <h1 className="text-4xl font-semibold text-center ">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">Shop Our Categories</span>        
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">Men's Shoe Collection</span>        
         </h1>
-           <p className=" text-gray-600  pb-10 w-2/4 text-center pt-5 mx-auto">Uncover a wide variety of products tailored to meet your needs. Whether you looking for the latest trends, everyday essentials or something special, explore our carefully curated categories to find exactly what you looking for.
-
-</p>
+           <p className="text-center text-gray-600  pt-2 pb-10">Step up your style with exclusive deals on our latest shoes</p>
 
            
 
       <div className="relative">
   <div className="keen-slider" ref={sliderRef}>
-    {Category.map((card, index) => (
+    {menShoe.map((card, index) => (
       <div
         key={card.id}
-        className={`keen-slider__slide border-4 pt-5 bg-transparent ${
-          index === (currentSlide + 1) % Category.length
+        className={`keen-slider__slide border-4 bg-transparent ${
+          index === (currentSlide + 1) % menShoe.length
         }`}
       >
         <div className="overflow-hidden relative">
@@ -86,14 +84,14 @@ function ShopCategory() {
                 <img
                   src={card.img}
                   alt={card.title}
-                  className=" h-[150px] object-cover"
+                  className="w-full h-[350px] object-cover"
                 />
               </div>
             </div>
           </div>
           {/* Title under the image */}
           <div className="w-full bg-[#e8eaef] text-black text-center py-3 ">
-                           <h2 className="font-semibold">{card.title}</h2>
+                           <h2 className=" font-semibold">{card.title}</h2>
                    </div>
         </div>
       </div>
@@ -101,7 +99,7 @@ function ShopCategory() {
   </div>
   {/* Buttons */}
   <div className="absolute -bottom-20 right-0 flex gap-4">
-  <Button
+    <Button
       onClick={() => instanceRef.current?.prev()}
       className="bg-white hover:bg-[#522F8F] text-black hover:text-white p-3 rounded-full shadow-lg border-2"
     >
@@ -121,4 +119,4 @@ function ShopCategory() {
   );
 }
 
-export default ShopCategory;
+export default MenShoe;

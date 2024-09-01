@@ -64,7 +64,7 @@ function Products() {
          <h1 className="text-4xl font-semibold text-center ">
                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">New Products</span>        
         </h1>
-           <p className="text-center text-gray-600 text-lg pt-2 pb-10">Grab this opportunity with a special discount available only this month</p>
+           <p className="text-center text-gray-600  pt-2 pb-10">Grab this opportunity with a special discount available only this month</p>
 
            
 
@@ -91,7 +91,7 @@ function Products() {
           </div>
           {/* Title under the image */}
           <div className="w-full bg-[#e8eaef] text-black  text-center py-3 ">
-                           <h2 className="text-xl font-extrabold">{card.title}</h2>
+                           <h2 className=" font-semibold">{card.title}</h2>
                    </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ function Products() {
   </div>
   {/* Buttons */}
   <div className="absolute -bottom-20 right-0 flex gap-4">
-    <Button
+  <Button
       onClick={() => instanceRef.current?.prev()}
       className="bg-white hover:bg-[#522F8F] text-black hover:text-white p-3 rounded-full shadow-lg border-2"
     >
