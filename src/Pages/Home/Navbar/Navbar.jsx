@@ -66,7 +66,7 @@ const Header = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
 
-                        <Button className="relative ml-2  px-3 text-indigo-900 border-indigo-900 font-semibold text-base bg-white isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#FF643A] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] ">
+                        <Button className="relative ml-2  px-3  py-5 text-indigo-900 border-indigo-900 font-semibold text-base bg-white isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#FF643A] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] ">
                             <span className="">GET STARTED</span>
                         </Button>
                     </div>

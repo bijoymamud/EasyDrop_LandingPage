@@ -12,7 +12,9 @@ function Home() {
             <HowToStartSection/>
             <WhyEasyDrop/>
             <Statistics/>
-            <ShopCategory/>
+            <div className='px-20'>
+                <ShopCategory/> 
+            </div>
         </div>
     )
 }

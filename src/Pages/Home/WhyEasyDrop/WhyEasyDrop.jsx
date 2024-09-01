@@ -3,7 +3,7 @@ import { SiTicktick } from "react-icons/si";
 
 function WhyEasyDrop() {
     return (
-        <section className="pt-32">
+        <section className="pt-32 px-20 ">
                 <div className="grid grid-cols-2 gap-10">
                     <div>
                         <img  src="https://i.ibb.co/C5XNd6D/b0d63dcb83e88077a765601cca201390.png" alt="" className="w-[600px]" />

@@ -26,7 +26,7 @@ const HowToStartSection = () => {
   ];
 
   return (
-    <div className="pt-14 mt-14 bg-white">
+    <div className="pt-14 mt-14 px-20 bg-white">
       <h1 className="text-4xl font-semibold text-center pb-20">
                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">How to Start ?  </span>        
         </h1>

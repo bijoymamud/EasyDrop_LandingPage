@@ -41,7 +41,7 @@ function Statistics() {
           
 
             <div className="bg-[#522F8F] my-20 p-20 ">
-                <p className="text-semibold text-white mx-auto text-center text-2xl w-2/4 font-extrabold">Forget about capital—start dropshipping easily with <span className=" font-extrabold text-5   xl"> Easydrop</span> , without the hassle of stocking any products.
+                <p className="text-semibold text-white mx-auto text-center text-2xl w-3/4 font-extrabold">Forget about capital—start dropshipping easily with <span className=" font-extrabold text-5   xl"> Easydrop</span> , without the hassle of stocking any products.
                 The best part? The business will be in your name and delivery is nationwide!</p>
 
                 <div  className="text-center pt-10">
