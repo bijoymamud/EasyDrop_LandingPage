@@ -53,9 +53,9 @@ const HowToStartSection = () => {
         </div>
 
        <div className='text-center'>
-       <Button className="relative px-8 py-6  text-indigo-900 border-indigo-900 font-extrabold text-lg  bg-white isolation-auto z-10 border-2 
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none  before:bg-gradient-to-r from-[#522F8F] to-[#D31A65] 
-     before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white">Start Now</Button>
+       <Button className="relative ml-2  py-5 border-indigo-900 font-semibold text-base  isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#522F8F] to-[#D31A65]  before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white  text-transparent bg-clip-text px-8">
+                            <span className="font-bold ">Start Now</span>
+                        </Button>
        </div>
      
     </div>
