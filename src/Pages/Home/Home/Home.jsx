@@ -7,6 +7,9 @@ import ShopCategory from '../ShopCategory/ShopCategory'
 import Products from '../Products/Products'
 import TrandingProducts from '../TrandingProducts/TrandingProducts'
 import ManShoe from '../MenShoe/ManShoe'
+import ElectricProduct from '../ElectricalProducts/ElectricProducts'
+import GiftItems from '../GiftItems/GiftItems'
+import GetNotified from '../GetNotified/GetNotified'
 
 function Home() {
     return (
@@ -20,7 +23,10 @@ function Home() {
                 <Products/>
                 <TrandingProducts/>
                 <ManShoe/>
+                <ElectricProduct/>
+                <GiftItems/>
             </div>
+            <GetNotified/>
         </div>
     )
 }
