@@ -1,11 +1,15 @@
 import React from 'react'
+import Review from '../Review/Review'
+import HowToStartSection from '../HowToStart/HowToStartSection'
 
 function Home() {
     return (
         <div>
-            <h2>This is home</h2>
+            <Review/>
+            <HowToStartSection/>
         </div>
     )
 }
 
 export default Home
+
