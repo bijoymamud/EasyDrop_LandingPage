@@ -1,0 +1,38 @@
+[
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "https://flagcdn.com/us.svg"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "https://flagcdn.com/ca.svg"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "https://flagcdn.com/gb.svg"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "flag": "https://flagcdn.com/in.svg"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "https://flagcdn.com/de.svg"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "flag": "https://flagcdn.com/fr.svg"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "https://flagcdn.com/jp.svg"
+    }
+  ]
+  
