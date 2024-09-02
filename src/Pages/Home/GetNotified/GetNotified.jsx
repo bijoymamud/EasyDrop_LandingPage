@@ -78,7 +78,7 @@ function GotNotified() {
             />
             <Button 
               type="submit"
-              className="py-6 rounded-none bg-[#FF643A] font-bold text-lg">
+              className="py-6 rounded-none bg-[#FF643A] hover:bg-[#FF643A] font-bold text-lg">
               GET NOTIFIED
             </Button>
           </form>

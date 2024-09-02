@@ -58,32 +58,32 @@ function WhyEasyDrop() {
                     <div className="flex items-center gap-5 border p-5 rounded-sm bg-[#F4F6FA]">
                         <img src="https://i.ibb.co/0rggXwQ/Group-1000008819.png" alt="" />
                         <div>
-                            <h4 className="font-extrabold">Free Training</h4>
-                            <p>Learn New Skills</p>
+                            <h4 className="font-bold text-lg">Free Training</h4>
+                            <p className="text-sm text-gray-500">Learn New Skills</p>
                         </div>
                     </div>
 
                     <div className="flex items-center gap-5 border p-5 rounded-sm bg-[#F4F6FA]">
                         <img src="https://i.ibb.co/DgvsxWL/Group-1000008820.png" alt="" />
                         <div>
-                            <h4  className="font-extrabold">Free Courses</h4>
-                            <p>Online Marketing Course</p>
+                            <h4  className="font-bold text-lg">Free Courses</h4>
+                            <p className="text-sm text-gray-500">Online Marketing Course</p>
                         </div>
                     </div>
 
                     <div className="flex items-center gap-5 border p-5 rounded-sm bg-[#F4F6FA]">
                         <img src="https://i.ibb.co/FX86Gsm/Group.png" alt="" />
                         <div>
-                            <h4  className="font-extrabold">Referral Bonus</h4>
-                            <p>Earn rewards by referring</p>
+                            <h4 className="font-bold text-lg">Referral Bonus</h4>
+                            <p className="text-sm text-gray-500">Earn rewards by referring</p>
                         </div>
                     </div>
 
                     <div className="flex items-center gap-5 border p-5 rounded-sm bg-[#F4F6FA] ">
                         <img src="https://i.ibb.co/wCDmYcR/Group-1000008761.png" alt="" />
                         <div>
-                            <h4  className="font-extrabold">Return & Refund</h4>
-                            <p>Money-back guarantee</p>
+                            <h4  className="font-bold text-lg">Return & Refund</h4>
+                            <p className="text-sm text-gray-500">Money-back guarantee</p>
                         </div>
                     </div>
                     

@@ -84,7 +84,7 @@ const Review = () => {
         <h1 className="text-4xl font-semibold ">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl"> What Our Customer Are Saying</span>        
     </h1>
-    <p className="w-2/4 mx-auto pb-10 pt-2 text-gray-500">Here's what some of our valued clients have to say about their experiences with us. We pride ourselves on delivering exceptional service and quality, and it's our pleasure to share their feedback with you</p>
+    <p className="w-2/4 mx-auto pb-10 pt-5 text-gray-500">Here's what some of our valued clients have to say about their experiences with us. We pride ourselves on delivering exceptional service and quality, and it's our pleasure to share their feedback with you.</p>
        
       </div>
 

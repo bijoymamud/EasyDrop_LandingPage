@@ -10,10 +10,13 @@ import ManShoe from '../MenShoe/ManShoe'
 import ElectricProduct from '../ElectricalProducts/ElectricProducts'
 import GiftItems from '../GiftItems/GiftItems'
 import GetNotified from '../GetNotified/GetNotified'
+import YouTubeVideo from '../VideoSection/YoutubeVideo'
+import Banner from '../Banner/Banner'
 
 function Home() {
     return (
         <div>
+            <Banner />
             <Review/>
             <HowToStartSection/>
             <WhyEasyDrop/>
@@ -27,6 +30,7 @@ function Home() {
                 <GiftItems/>
             </div>
             <GetNotified/>
+            <YouTubeVideo/>
         </div>
     )
 }
