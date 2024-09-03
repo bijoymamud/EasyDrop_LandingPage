@@ -99,18 +99,18 @@ function Products() {
   </div>
   {/* Buttons */}
   <div className="absolute -bottom-20 right-0 flex gap-4">
-  <Button
-      onClick={() => instanceRef.current?.prev()}
-      className="bg-white hover:bg-[#522F8F] text-black hover:text-white p-3 rounded-full shadow-lg border-2"
-    >
-      <FaChevronLeft />
-    </Button>
-    <Button
-      onClick={() => instanceRef.current?.next()}
-      className="bg-white hover:bg-[#522F8F] text-black hover:text-white p-3 rounded-full shadow-lg border-2"
-    >
-      <FaChevronRight />
-    </Button>
+  <button
+            onClick={() => instanceRef.current?.prev()}
+            className="bg-white hover:bg-[#522F8F] text-black hover:text-white p-3 rounded-full shadow-lg border-2"
+          >
+            <FaChevronLeft />
+          </button>
+          <button
+            onClick={() => instanceRef.current?.next()}
+            className="bg-white hover:bg-[#522F8F] text-black hover:text-white p-3 rounded-full shadow-lg border-2"
+          >
+            <FaChevronRight />
+          </button>
   </div>
 </div>
 
