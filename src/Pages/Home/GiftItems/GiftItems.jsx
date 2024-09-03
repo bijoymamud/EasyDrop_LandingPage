@@ -31,7 +31,7 @@ function GiftItems() {
     },
     {
       id: 2,
-      title: "Valentine Special Flower Bouquet Scented",
+      title: "Valentine Special Flower Bouquet",
       img: "https://s3-alpha-sig.figma.com/img/2e6c/cdce/b7f7a4620966bc96a2c322912f533e61?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gMxRCAk~e3mvlzBJWGD7umPIKo9RJg2DnokUUDg5PPOgimjEZyh6U~KNnGIXJHuBCgZmqvV9DD4z1pNVmYq2F~TJSc9uoAQHV1ZGfqpeYhQ6S9kYxWqVC0IqaULjsMS87KWe9mDHRbLi9TFK91PwqfzMI4qOXL-t5WVbi8mxMArDE0MhUvuGmB2fwewPLEtxmtX~vvYnJPAjtfG1XIQCu~YuhqoVyWqlB0zEoX9hXtW46CgeuEyR5Sr2jJlurSmnQvjmZDTRYZOwmBkLGT693i1q5VCMMArq0faytqpIP02DIzXpfDJV6Bh-RjZ9ZF5tmYFnzCDz84S1XVmO7yi3yQ__",
     },
     {
@@ -41,17 +41,17 @@ function GiftItems() {
     },
     {
       id: 4,
-      title: "Valentine Special High Appearance Premium",
+      title: "Valentine Special High Appearance",
       img: "https://s3-alpha-sig.figma.com/img/b05d/ced3/652e68c21eb7c21ab7a53373df61600b?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oukrfz5NAQEm1QXolyPd2YGOxl6o3fFJmUmoS046Rie~UbIX5CrTh3NTmMAGFw0vTFlg4EJphwPZweitgEQSv3y3pYXfR8~nxgzPgr0zwajGCFGuvVw7tqJHAqDBSugpUGJbRWnq5opFvWXvGvE865FRI-7uw9GRrypHSLwFz2MBkPGuk9ANjbHbj855bJaMpdyS6YD9ylMVJT3ux6k0ImEEK6PlLmS5gHT~3S-Isrkb5-46-C5TQTOm7YrYJ2KTk~ttj4tJcX0pO4LiLmyHbl7z3-tV-wXK7RJIAPu866NuGr8gtX5qjzwZRQFAGo56y3ErwVvpzBiyyidLDFhqGw__",
     },
     {
       id: 5,
-      title: "Valentine Special Men Quartz Watch Set",
+      title: "Special Men Quartz Watch Set",
       img: "https://cf.shopee.ph/file/sg-11134301-7rd62-lvebfi1tv9k0c1",
     },
     {
       id: 6,
-      title: "Valentine Special Flower Bouquet Scented",
+      title: "Valentine Special Flower Bouquet",
       img: "https://m.media-amazon.com/images/I/719E7jzn8pL._AC_UF1000,1000_QL80_.jpg",
     },
   ];

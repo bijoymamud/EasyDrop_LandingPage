@@ -16,14 +16,14 @@ function Banner() {
             <div className='grid grid-cols-2 gap-10 h-full'>
                 <div className='pt-44'>
                     <h1 className='text-5xl font-extrabold text-[#522F8F]'>
-                        Building your business
+                        Building your Business
                     </h1>
                     <p className='w-4/6 pt-5 text-[#757095]'>
                         Small business, big opportunity? We help our clients to grow & reshape their business.
                     </p>
 
                     <div className='flex gap-5 items-center pt-10 pb-28'>
-                        <Button className="bg-gradient-to-r from-[#522F8F] from-20% to-[#D31A65] rounded-sm px-6">
+                        <Button className="bg-gradient-to-r from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-sm px-8">
                             Sign Up
                         </Button>
                         <p className='flex items-center gap-2'>

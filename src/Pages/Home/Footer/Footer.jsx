@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="px-20 mx-auto grid grid-cols-1 md:grid-cols-6 gap-5">
         <div className="space-y-4 col-span-2">
           <img src="https://i.ibb.co/JRHSrS3/new-sitelogo.png" alt="companyLogo" className="h-8" />
-          <p className="text-sm text-[#4b4c6e]">
+          <p className=" text-[#4b4c6e]">
             EasyDrop, ranked as the top dropshipping platform in Bangladesh, is
             dedicated to the mission of eradicating unemployment and actively
             participating in the country's economic growth.
