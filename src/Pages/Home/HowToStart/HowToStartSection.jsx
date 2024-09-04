@@ -26,38 +26,36 @@ const HowToStartSection = () => {
   ];
 
   return (
-    <div className="pt-14 mt-14 px-20 bg-white">
-      <h1 className="text-4xl font-semibold text-center pb-20">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">How to Start ?  </span>        
-        </h1>
-      
+    <div className="md:pt-10 md:mt-10 px-6 md:px-20 bg-white">
+      <h1 className="text-3xl md:text-4xl font-semibold text-center pb-12 md:pb-20">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-4xl md:text-5xl">
+          How to Start ?
+        </span>
+      </h1>
 
-        <div className='grid grid-cols-4 gap-10 py-20'>
-
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-10 py-10 md:py-20">
         {steps.map((step, index) => (
-          <div key={index} className="text-center border-2 border-[#D31A65]">
-            <div className='bg-white rounded-full -mt-16 w-[150px] mx-auto'>
-            <img src={step.icon} alt="" className='bg-rose-50 p-1 rounded-full h-[100px] w-[100px] mx-auto' />
-
+          <div key={index} className="text-center border-2 border-[#D31A65] p-4 md:p-0 mb-10 md:mb-0">
+            <div className="bg-white rounded-full -mt-14 md:-mt-16 w-[120px] md:w-[150px] mx-auto">
+              <img src={step.icon} alt="" className="bg-rose-50 p-1 rounded-full h-[80px] md:h-[100px] w-[80px] md:w-[100px] mx-auto" />
             </div>
-            <p className="text-sm text-gray-600 my-4 font-semibold">{step.title}</p>
+            <p className="text-sm md:text-base text-gray-600 my-4 font-semibold">
+              {step.title}
+            </p>
+            <div className="flex justify-end -mb-10 md:-mb-7 me-2 md:me-4 md:mt-10 ">
+              <p className="text-lg md:text-xl font-semibold text-[#D31A65] p-3 md:p-4 bg-white">
+                {step.step}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
 
-     <div className='flex justify-end -mb-6 me-4'>
-                <p className="text-xl font-semibold text-[#D31A65] p-4 bg-white ">{step.step}</p>
-        </div>    
-
-
-    </div>
-        ))}  
-
-        </div>
-
-       <div className='text-center'>
-       <Button className="relative ml-2  py-5 border-indigo-900 font-semibold text-base  isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#522F8F] to-[#D31A65]  before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white  text-transparent bg-clip-text px-8">
-                            <span className="font-bold ">Start Now</span>
-                        </Button>
-       </div>
-     
+      <div className="text-center">
+        <Button className="relative ml-2 py-4 md:py-5 border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#522F8F] to-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text px-6 md:px-8">
+          <span className="font-bold">Start Now</span>
+        </Button>
+      </div>
     </div>
   );
 };
