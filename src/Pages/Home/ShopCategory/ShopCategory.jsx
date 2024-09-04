@@ -10,7 +10,7 @@ function ShopCategory() {
 
   const [sliderRef,instanceRef] = useKeenSlider({
     breakpoints: {
-      "(min-width: 400px)": {
+      "(min-width: 200px)": {
         slides: { perView: 2, spacing: 5 },
       },
       "(min-width: 1000px)": {
@@ -61,10 +61,10 @@ function ShopCategory() {
   
 
     <section className="mb-20 pb-20 ">
-         <h1 className="text-4xl font-semibold text-center ">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">Shop Our Categories</span>        
+         <h1 className=" font-semibold text-center ">
+                 <span className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold md:text-5xl">Shop Our Categories</span>        
         </h1>
-           <p className=" text-gray-600  pb-10 w-2/4 text-center pt-5 mx-auto">Uncover a wide variety of products tailored to meet your needs. Whether you looking for the latest trends, everyday essentials or something special, explore our carefully curated categories to find exactly what you looking for.
+           <p className=" text-gray-600  pb-10 md:w-2/4 w-full px-1 md:px-0 text-center pt-5 mx-auto">Uncover a wide variety of products tailored to meet your needs. Whether you looking for the latest trends, everyday essentials or something special, explore our carefully curated categories to find exactly what you looking for.
 
 </p>
 

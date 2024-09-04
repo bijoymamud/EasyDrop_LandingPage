@@ -73,7 +73,7 @@ function Products() {
     {products.map((card, index) => (
       <div
         key={card.id}
-        className={`keen-slider__slide border-4 bg-transparent ${
+        className={`keen-slider__slide border-4 md:px-0 bg-transparent ${
           index === (currentSlide + 1) % products.length
         }`}
       >

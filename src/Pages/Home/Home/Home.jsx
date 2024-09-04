@@ -21,7 +21,7 @@ function Home() {
             <HowToStartSection/>
             <WhyEasyDrop/>
             <Statistics/>
-            <div className='px-20'>
+            <div className='md:px-20 '>
                 <ShopCategory/> 
                 <Products/>
                 <TrandingProducts/>

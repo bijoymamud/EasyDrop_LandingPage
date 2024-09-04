@@ -16,7 +16,7 @@ const Header = () => {
         <section
           className='bg-[#F1F1FF]' >
             {/* main section start */}
-            <div className='px-20'>
+            <div className='md:px-20'>
                 <div className='grid grid-cols-2 text-end py-3'>
                     <div className='flex items-center gap-5'>
                         <div className='flex items-center gap-2'>
@@ -70,7 +70,7 @@ const Header = () => {
 
                 {/* navbar section start */}
                 <div className="grid grid-cols-4 items-center pt-3">
-                    <div className="col-span-2">
+                    <div className="md:col-span-2">
                         <img src="https://i.ibb.co/JRHSrS3/new-sitelogo.png" alt="" className='h-8' />
                     </div>
                     <div className="space-x-8 text-end col-span-2">
