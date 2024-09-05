@@ -61,12 +61,13 @@ const Header = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
 
-                        <Button className="relative ml-2 px-3 text-indigo-900 border-indigo-900 font-semibold text-xs md:text-base bg-white isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#FF643A] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]">
-                            <span className="">GET STARTED</span>
-                        </Button>
+                        <Button className="relative ml-2 py-4 md:py-5 border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#522F8F] to-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text px-6 md:px-8  bg-gradient-to-r from-[#522F8F] to-[#D31A65]  ">
+                        <span className="">GET STARTED</span>
+                    </Button>
                     </div>
                 </div>
 
+{/* mobile device */}
                 <div className='block md:hidden '>
 
                     <div className='flex items-center gap-5'>
@@ -92,7 +93,7 @@ const Header = () => {
                                             {/* {selectedCountry.name} */}
                                         </>
                                     ) : (
-                                        <Globe size={20} className="text-gray-600" />
+                                        <Globe size={20} className='text-[#522F8F]' />
                                     )}
                                 </span>
                             </DropdownMenuTrigger>
@@ -121,7 +122,7 @@ const Header = () => {
                 <div className="flex items-center justify-between gap-3 pt-3">
                   <div className='flex items-center gap-2'>
                   <FaBars
-                        className="text-2xl cursor-pointer md:hidden"
+                        className="text-2xl cursor-pointer md:hidden text-[#6e2e48]"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     />
                     <div className="flex items-center">
@@ -131,7 +132,7 @@ const Header = () => {
                   </div>
 
                         <div>
-                        <Button className="block md:hidden bg-[#522F8F] rounded-sm px-5">Sign In</Button>
+                        <Button className="block md:hidden bg-[#522F8F] rounded-sm px-5 text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] border border-indigo-900 font-bold text-sm">GET STARTED</Button>
                         </div>
                   
                     <div className="hidden md:flex space-x-8 text-end">

@@ -43,11 +43,19 @@ function Statistics() {
                 </p>
 
                 <div className="pt-6 md:pt-10">
-                    <Button className="relative px-3 py-4 md:px-8 md:py-6 text-indigo-900 border-indigo-900 font-extrabold text-lg bg-white isolation-auto z-10 border-2 
-                        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#FF643A]
-                        before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white">
-                        JOIN NOW
-                    </Button>
+                   
+                {/* <Button className="relative ml-2 py-4 md:py-5  border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text px-6 md:px-8  bg-gradient-to-r from-[#522F8F] to-[#D31A65]  ">
+                        <span>Join No</span>
+                    </Button> */}
+
+<Button 
+  type="submit"
+  className="relative bg-gradient-to-r from-[#9561ef] to-[#D31A65] text-white  py-4 md:py-5 border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#9561ef] to-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white   px-6 md:px-8">
+  GET NOTIFIED
+</Button>
+
+                
+
                 </div>
             </div>
         </section>

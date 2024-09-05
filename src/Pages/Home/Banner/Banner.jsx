@@ -81,7 +81,7 @@ function Banner() {
                         <img src="https://i.ibb.co/6sgVR09/Group-1000009261.png" alt="" />
 
                         </div>
-                    <div className='grid grid-cols-2 gap-5 pt-5 pl-6'>
+                    <div className='grid grid-cols-2 gap-5 pt-5 pl-2'>
 
                         <div className='flex items-center gap-3'>
                                 <div>
@@ -89,8 +89,8 @@ function Banner() {
                                  </div>     
 
                              <div>
-                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
-                                     <p>Subscribers</p>
+                                     <p className='pt-2 text-xl md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
+                                     <p className='text-sm'>Subscribers</p>
                                 </div>
                         </div>
 
@@ -100,8 +100,8 @@ function Banner() {
                                  </div>     
 
                              <div>
-                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
-                                     <p>Subscribers</p>
+                                     <p className='pt-2 text-xl  md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>2000+</p>
+                                     <p className='text-sm'>Completed Orders</p>
                                 </div>
                         </div>
 
@@ -111,8 +111,8 @@ function Banner() {
                                  </div>     
 
                              <div>
-                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
-                                     <p>Subscribers</p>
+                                     <p className='pt-2 text-xl  md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>200+</p>
+                                     <p className='text-sm'>Reviews</p>
                                 </div>
                         </div>
                         <div className='flex items-center gap-3'>
@@ -121,8 +121,8 @@ function Banner() {
                                  </div>     
 
                              <div>
-                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
-                                     <p>Subscribers</p>
+                                     <p className='pt-2 text-xl  md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>20+</p>
+                                     <p className='text-sm'>Team Members</p>
                                 </div>
                         </div>
                         
