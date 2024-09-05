@@ -17,7 +17,7 @@ const Header = () => {
             <div className='px-4 md:px-20'>
                 <div className='grid grid-cols-2 md:grid-cols-2 text-end py-3'>
                     <div className='flex items-center gap-5'>
-                        <div className='flex items-center gap-2'>
+                        <div className='flex items-center gap-1 md:gap-2'>
                             <FaPhoneAlt className='text-indigo-900 '/>
                             <p className='text-xs'>0123456789 (10AM-5PM)</p>
                         </div>
@@ -36,13 +36,13 @@ const Header = () => {
                                         <>
                                             <img
                                                 src={selectedCountry.flag}
-                                                alt={selectedCountry.name}
-                                                className="w-5 h-5 mr-2"
+                                                // alt={selectedCountry.name}
+                                                className="w-8 h-8 "
                                             />
-                                            {selectedCountry.name}
+                                            {/* {selectedCountry.name} */}
                                         </>
                                     ) : (
-                                        <Globe size={28} className="text-gray-600" />
+                                        <Globe size={24} className="text-gray-600" />
                                     )}
                                 </span>
                             </DropdownMenuTrigger>
@@ -54,27 +54,35 @@ const Header = () => {
                                         className="flex items-center space-x-2 px-4 hover:bg-gray-100 cursor-pointer"
                                     >
                                         <img src={country.flag} className="w-5" />
-                                        <span>{country.name}</span>
+                                        <span className='text-xs'>{country.name}</span>
                                     </DropdownMenuItem>
                                 ))}
                             </DropdownMenuContent>
                         </DropdownMenu>
 
-                        <Button className="relative ml-2 px-3 text-indigo-900 border-indigo-900 font-semibold text-sm md:text-base bg-white isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#FF643A] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]">
+                        <Button className="relative ml-2 px-3 text-indigo-900 border-indigo-900 font-semibold text-xs md:text-base bg-white isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-[#FF643A] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]">
                             <span className="">GET STARTED</span>
                         </Button>
                     </div>
                 </div>
 
                 {/* navbar section start */}
-                <div className="flex items-center gap-3 pt-3">
-                    <FaBars
+                <div className="flex items-center justify-between gap-3 pt-3">
+                  <div className='flex items-center gap-2'>
+                  <FaBars
                         className="text-2xl cursor-pointer md:hidden"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     />
                     <div className="flex items-center">
                         <img src="https://i.ibb.co/JRHSrS3/new-sitelogo.png" alt="" className='h-8' />
                     </div>
+                   
+                  </div>
+
+                        <div>
+                        <Button className="block md:hidden bg-[#522F8F] rounded-sm px-5">Sign In</Button>
+                        </div>
+                  
                     <div className="hidden md:flex space-x-8 text-end">
                         <a href="#all-products" className="font-semibold text-lg">All Products</a>
                         <a href="#tracking" className="font-semibold text-lg">Tracking</a>

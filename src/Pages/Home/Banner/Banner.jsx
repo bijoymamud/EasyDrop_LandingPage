@@ -62,9 +62,14 @@ function Banner() {
             </div>
         </section>
 
-        <section className='block md:hidden pt-20 bg-[#F1F1FF]'>
+        <section className='block md:hidden pt-14 bg-[#F1F1FF] bg-cover bg-center h-screen'
+        
+        style={{
+            backgroundImage: "url('https://i.ibb.co/qNzv3Hs/Whats-App-Image-2024-09-05-at-12-00-54-AM.jpg')",
+            
+        }}>
                 <div className='text-center'>
-                      <h2 className='text-4xl font-extrabold text-[#522F8F]'>Building your business</h2>
+                      <h2 className='text-4xl font-extrabold text-[#522F8F]'>Building Your <br /> Business</h2>
                      <p className=' px-5 mx-auto text-gray-600 py-5'>Small business, big opportunity? We help our clients to grow & reshape their business.</p>
                 </div> 
                 <div className='flex justify-center gap-5 items-center pt-5 pb-10 mx-auto '>
