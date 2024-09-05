@@ -12,17 +12,18 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <section className='bg-[#F1F1FF]'>
+        <section className=' '>
+            <div className='bg-[#F1F1FF]'>
             {/* main section start */}
-            <div className='px-4 md:px-20'>
-                <div className='grid grid-cols-2 md:grid-cols-2 text-end py-3'>
+            <div className='px-2 pt-2 md:pt-0 md:px-20'>
+                <div className='hidden md:grid grid-cols-2 md:grid-cols-2 text-end py-3'>
                     <div className='flex items-center gap-5'>
                         <div className='flex items-center gap-1 md:gap-2'>
                             <FaPhoneAlt className='text-indigo-900 '/>
                             <p className='text-xs'>0123456789 (10AM-5PM)</p>
                         </div>
 
-                        <div className='hidden lg:flex items-center gap-2'>
+                        <div className='flex items-center gap-2'>
                             <IoMail className='text-xl text-indigo-900' />
                                      <p className='text-xs'>info@easydrop.com</p>
                                 </div>
@@ -64,6 +65,56 @@ const Header = () => {
                             <span className="">GET STARTED</span>
                         </Button>
                     </div>
+                </div>
+
+                <div className='block md:hidden '>
+
+                    <div className='flex items-center gap-5'>
+                                <div className='flex items-center gap-2'>
+                                <FaPhoneAlt className='text-[#522F8F]'/><p className=''>01322878354</p>
+                                </div>
+
+                                <div className='flex items-center gap-2' >
+                                <IoMail className='text-[#522F8F]'/>  <p className=''>info@easydrop.asia</p>
+                                </div>
+
+                        <div className=''>
+                                <DropdownMenu>
+                            <DropdownMenuTrigger className="flex items-center justify-between px-1">
+                                 <span className="flex items-center rounded-none">
+                                    {selectedCountry ? (
+                                        <>
+                                            <img
+                                                src={selectedCountry.flag}
+                                                // alt={selectedCountry.name}
+                                                className="w-10 h-6"
+                                            />
+                                            {/* {selectedCountry.name} */}
+                                        </>
+                                    ) : (
+                                        <Globe size={20} className="text-gray-600" />
+                                    )}
+                                </span>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent className="w-full bg-white">
+                                {countries.map((country) => (
+                                    <DropdownMenuItem
+                                        key={country.code}
+                                        onClick={() => setSelectedCountry(country)}
+                                        className="flex items-center space-x-2 px-4 hover:bg-gray-100 cursor-pointer"
+                                    >
+                                        <img src={country.flag} className="w-5" />
+                                        <span className='text-xs'>{country.name}</span>
+                                    </DropdownMenuItem>
+                                ))}
+                            </DropdownMenuContent>
+                        </DropdownMenu>
+                        </div>
+                 </div>
+
+
+
+
                 </div>
 
                 {/* navbar section start */}
@@ -115,6 +166,9 @@ const Header = () => {
                 {/* navbar section end */}
             </div>
             {/* main section end */}
+        </div>
+
+       
         </section>
     );
 };

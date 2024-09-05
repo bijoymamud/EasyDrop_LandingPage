@@ -62,17 +62,13 @@ function Banner() {
             </div>
         </section>
 
-        <section className='block md:hidden pt-14 bg-[#F1F1FF] bg-cover bg-center h-screen'
-        
-        style={{
-            backgroundImage: "url('https://i.ibb.co/qNzv3Hs/Whats-App-Image-2024-09-05-at-12-00-54-AM.jpg')",
-            
-        }}>
+{/* for mobile banner */}
+        <section className='block md:hidden pt-14 bg-[#F1F1FF] bg-cover bg-center min-h-screen pb-10'>
                 <div className='text-center'>
                       <h2 className='text-4xl font-extrabold text-[#522F8F]'>Building Your <br /> Business</h2>
-                     <p className=' px-5 mx-auto text-gray-600 py-5'>Small business, big opportunity? We help our clients to grow & reshape their business.</p>
+                     <p className=' px-5 mx-auto text-gray-600 py-3'>Small business, big opportunity? We help our clients to grow & reshape their business.</p>
                 </div> 
-                <div className='flex justify-center gap-5 items-center pt-5 pb-10 mx-auto '>
+                <div className='flex justify-center gap-5 items-center pt-2  mx-auto '>
                         <Button className="bg-gradient-to-r  from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-sm px-8">
                             Sign Up
                         </Button>
@@ -80,6 +76,58 @@ function Banner() {
                             <FaCirclePlay className='text-4xl bg-[#D31A65] text-white rounded-full p-1'/>
                             Watch Video
                         </p>
+                    </div>
+                        <div>
+                        <img src="https://i.ibb.co/6sgVR09/Group-1000009261.png" alt="" />
+
+                        </div>
+                    <div className='grid grid-cols-2 gap-5 pt-5 pl-6'>
+
+                        <div className='flex items-center gap-3'>
+                                <div>
+                                    <Users size={40} strokeWidth={1.5} className='bg-[#522F8F] p-2 rounded-full text-white mx-auto'/>
+                                 </div>     
+
+                             <div>
+                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
+                                     <p>Subscribers</p>
+                                </div>
+                        </div>
+
+                        <div className='flex items-center gap-3'>
+                                <div>
+                                    <ShoppingCart size={40} strokeWidth={1.5} className='bg-[#522F8F] p-2 rounded-full text-white mx-auto'/>
+                                 </div>     
+
+                             <div>
+                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
+                                     <p>Subscribers</p>
+                                </div>
+                        </div>
+
+                        <div className='flex items-center gap-3'>
+                                <div>
+                                    <FaRankingStar size={40} strokeWidth={1.5} className='bg-[#522F8F] p-2 rounded-full text-white mx-auto'/>
+                                 </div>     
+
+                             <div>
+                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
+                                     <p>Subscribers</p>
+                                </div>
+                        </div>
+                        <div className='flex items-center gap-3'>
+                                <div>
+                                    <FaUsers size={40} strokeWidth={1.5} className='bg-[#522F8F] p-2 rounded-full text-white mx-auto'/>
+                                 </div>     
+
+                             <div>
+                                     <p className='pt-2 text-base md:text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65]'>500+</p>
+                                     <p>Subscribers</p>
+                                </div>
+                        </div>
+                        
+
+
                     </div>
         </section>
        </div>
