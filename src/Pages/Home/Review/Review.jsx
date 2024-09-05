@@ -99,7 +99,7 @@ const Review = () => {
               key={card.id}
               className={`keen-slider__slide bg-transparent p-4 sm:p-10 rounded ${
                 index === (currentSlide + 1) % cardDetails.length
-                  ? "bg-stone-100 border-b-4 sm:border-b-8 border-[#522F8Fs]"
+                  ? "bg-stone-100 border-b-4 sm:border-b-8 border-[#522F8F]"
                   : ""
               }`}
             >

@@ -57,20 +57,19 @@ function GotNotified() {
               type="email"
               name="email"
               placeholder="Email Address"
-              className="bg-[#e1dfdf] text-black rounded-none py-4 md:py-6 mb-4"
+              className="bg-white text-black rounded-none py-4 md:py-6 mb-4"
             />
             <Input
               type="number"
               name="number"
               placeholder="Phone Number"
-              className="bg-[#e1dfdf] text-black rounded-none py-4 md:py-6 mb-4"
+              className="bg-white text-black rounded-none py-4 md:py-6 mb-4"
             />
             
-<Button 
-  type="submit"
-  className="relative bg-gradient-to-r from-[#9561ef] to-[#D31A65] text-white  py-4 md:py-5 border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#9561ef] to-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white   px-6 md:px-8">
-  GET NOTIFIED
-</Button>
+
+
+<Button className="bg-white hover:bg-white text-black md:py-6 md:text-lg shadow-xl rounded-none "><span className="text-transparent bg-clip-text  px-3 md:px-6 font-extrabold  bg-gradient-to-r from-[#522F8F] to-[#D31A65] ">JOIN NOW</span></Button>
+                
 
 
             

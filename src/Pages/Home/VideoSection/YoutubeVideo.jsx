@@ -9,8 +9,8 @@ function YouTubeVideo() {
                     </span>
                 </h1>
 
-                <div className="flex flex-col md:flex-row items-center justify-center md:justify-around px-5 md:px-20 pt-10 md:pt-20 pb-5 space-y-5 md:space-y-0">
-                    <div className="w-full md:w-auto">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:justify-around px-5 md:px-20 pt-10 md:pt-20 pb-5 space-y-5 md:space-y-0">
+                    <div className="w-full ">
                         <iframe
                             width="100%"
                             height="auto"
@@ -24,7 +24,7 @@ function YouTubeVideo() {
                         ></iframe>
                     </div>
 
-                    <div className="w-full md:w-auto">
+                    <div className="w-full ">
                         <iframe
                             width="100%"
                             height="auto"
