@@ -11,7 +11,7 @@ function ShopCategory() {
   const [sliderRef,instanceRef] = useKeenSlider({
     breakpoints: {
       "(min-width: 200px)": {
-        slides: { perView: 2, spacing: 5 },
+        slides: { perView: 2, spacing:10},
       },
       "(min-width: 1000px)": {
         slides: { perView: 6, spacing: 10 },
@@ -60,7 +60,7 @@ function ShopCategory() {
   return (
   
 
-    <section className="mb-20 pb-20 ">
+    <section className=" mb-14 pb-14 ">
          <h1 className=" font-semibold text-center ">
                  <span className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold md:text-5xl">Shop Our Categories</span>        
         </h1>

@@ -24,7 +24,7 @@ function Banner() {
                     </p>
 
                     <div className='flex gap-5 items-center pt-10 pb-28'>
-                        <Button className="bg-gradient-to-r from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-sm px-8">
+                        <Button className="bg-gradient-to-r from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-none px-8">
                             Sign Up
                         </Button>
                         <p className='flex items-center gap-2'>
@@ -63,13 +63,13 @@ function Banner() {
         </section>
 
 {/* for mobile banner */}
-        <section className='block md:hidden pt-14 bg-[#F1F1FF] bg-cover bg-center min-h-screen pb-10'>
+        <section className='block md:hidden pt-10 bg-[#F1F1FF] bg-cover bg-center min-h-screen pb-5'>
                 <div className='text-center'>
                       <h2 className='text-4xl font-extrabold text-[#522F8F]'>Building Your <br /> Business</h2>
                      <p className=' px-5 mx-auto text-gray-600 py-3'>Small business, big opportunity? We help our clients to grow & reshape their business.</p>
                 </div> 
                 <div className='flex justify-center gap-5 items-center pt-2  mx-auto '>
-                        <Button className="bg-gradient-to-r  from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-sm px-8">
+                        <Button className="bg-gradient-to-r  from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-none px-8">
                             Sign Up
                         </Button>
                         <p className='flex items-center gap-2'>
@@ -81,7 +81,7 @@ function Banner() {
                         <img src="https://i.ibb.co/6sgVR09/Group-1000009261.png" alt="" />
 
                         </div>
-                    <div className='grid grid-cols-2 gap-5 pt-5 pl-2'>
+                    <div className='grid grid-cols-2 gap-5 pt-5 pl-6'>
 
                         <div className='flex items-center gap-3'>
                                 <div>

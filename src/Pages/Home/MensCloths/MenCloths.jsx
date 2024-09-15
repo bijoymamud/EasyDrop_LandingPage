@@ -61,12 +61,10 @@ function MensCloths() {
   
 
     <section className="mb-20 pb-20">
-         <h1 className="text-4xl font-semibold text-center ">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">Men's Cloths Collection</span>        
+         <h1 className="text-4xl  font-semibold text-center ">
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] md:5xl font-extrabold ">Men's Cloths Collection</span>        
         </h1>
            <p className="text-center text-gray-600 pt-2 pb-10">Step up your style with exclusive deals on our latest shoes</p>
-
-           
 
       <div className="relative">
   <div className="keen-slider" ref={sliderRef}>

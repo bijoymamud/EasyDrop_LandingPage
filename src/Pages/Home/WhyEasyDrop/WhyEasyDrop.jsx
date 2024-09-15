@@ -3,7 +3,7 @@ import { SiTicktick } from "react-icons/si";
 
 function WhyEasyDrop() {
     return (
-        <section className="pt-20 px-6 md:pt-32 md:px-20">
+        <section className=" px-6 md:pt-32 md:px-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <div className="flex justify-center">
                     <img
@@ -46,9 +46,7 @@ function WhyEasyDrop() {
                     </div>
 
                   <div className="text-center md:text-start">
-                  <Button className="relative ml-2 py-4 md:py-5 border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#522F8F] to-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text px-6 md:px-8 text-indigo-900">
-                        <span className="">Start Now</span>
-                    </Button>
+                        <Button className="bg-gradient-to-r rounded-none px-5 from-[#522F8F] to-[#D31A65]">Start Now</Button>
                   </div>
                 </div>
             </div>

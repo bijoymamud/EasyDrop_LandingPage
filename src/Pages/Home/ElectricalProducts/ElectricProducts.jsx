@@ -60,9 +60,9 @@ function ElectricProduct() {
   return (
   
 
-    <section className=" my-20">
-         <h1 className="text-4xl font-semibold text-center ">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">Electronic Products</span>        
+    <section className=" mb-10 pb-10 pt-10 md:pt-0">
+         <h1 className="text-4xl md:text-5xl font-semibold text-center ">
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold ">Electronic Products</span>        
         </h1>
            <p className="text-center text-gray-600 pt-2 pb-10">Upgrade your gear with exclusive discounts on top electronics</p>
 

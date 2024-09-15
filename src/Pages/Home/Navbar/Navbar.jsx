@@ -61,7 +61,7 @@ const Header = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
 
-                        <Button className="relative ml-2 py-4 md:py-5 border-indigo-900 font-semibold text-sm md:text-base isolation-auto z-10 border-2 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 rounded-none before:bg-gradient-to-r from-[#522F8F] to-[#D31A65] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:border-[#fff] hover:text-white text-transparent bg-clip-text px-6 md:px-8  bg-gradient-to-r from-[#522F8F] to-[#D31A65]  ">
+                        <Button className="bg-gradient-to-r rounded-none from-[#522F8F] py-5 from-30% to-[#D31A65] ">
                         <span className="">GET STARTED</span>
                     </Button>
                     </div>
@@ -70,7 +70,7 @@ const Header = () => {
 {/* mobile device */}
                 <div className='block md:hidden '>
 
-                    <div className='flex items-center gap-5'>
+                    <div className='flex items-center justify-between gap-5'>
                                 <div className='flex items-center gap-2'>
                                 <FaPhoneAlt className='text-[#522F8F]'/><p className=''>01322878354</p>
                                 </div>

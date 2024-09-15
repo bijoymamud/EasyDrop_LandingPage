@@ -79,7 +79,7 @@ const Review = () => {
   });
 
   return (
-    <section id="testimonial" className="min-h-screen flex flex-col justify-center items-center relative">
+    <section id="testimonial" className=" py-14 md:py-20 flex flex-col justify-center items-center relative">
       <div className="text-center px-4">
         <h1 className="text-3xl sm:text-4xl font-semibold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-4xl sm:text-5xl">
@@ -92,7 +92,7 @@ const Review = () => {
       </div>
 
       {/* Cards Slider */}
-      <div className="relative w-full container mx-auto px-2  mt-5">
+      <div className="relative w-full container mx-auto px-2 md:px-10 mt-5">
         <div className="keen-slider" ref={sliderRef}>
           {cardDetails.map((card, index) => (
             <div

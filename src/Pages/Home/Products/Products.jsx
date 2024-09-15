@@ -61,8 +61,8 @@ function Products() {
   
 
     <section>
-         <h1 className="text-4xl font-semibold text-center ">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">New Products</span>        
+         <h1 className="text-4xl md:text-5xl font-semibold text-center ">
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold ">New Products</span>        
         </h1>
            <p className="text-center text-gray-600  pt-2 pb-10">Grab this opportunity with a special discount available only this month</p>
 

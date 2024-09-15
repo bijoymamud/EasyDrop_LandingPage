@@ -60,9 +60,9 @@ function MenShoe() {
   return (
   
 
-    <section className="mb-20 pb-20">
-         <h1 className="text-4xl font-semibold text-center ">
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold text-5xl">Men's Shoe Collection</span>        
+    <section className="mb-10 pb-10 md:pb-20">
+         <h1 className="text-4xl md:text-5xl font-semibold text-center ">
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#522F8F] to-[#D31A65] font-extrabold ">Men's Shoe Collection</span>        
         </h1>
            <p className="text-center text-gray-600  pt-2 pb-10">Step up your style with exclusive deals on our latest shoes</p>
 
