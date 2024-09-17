@@ -69,7 +69,7 @@ function Banner() {
                      <p className=' px-5 mx-auto text-gray-600 py-3'>Small business, big opportunity? We help our clients to grow & reshape their business.</p>
                 </div> 
                 <div className='flex justify-center gap-5 items-center pt-2  mx-auto '>
-                        <Button className="bg-gradient-to-r  from-[#522F8F] py-5 from-30% to-[#D31A65] rounded-none px-8">
+                        <Button className="bg-gradient-to-r  from-[#522F8F] py-5 from-40% to-[#D31A65] rounded-none px-8">
                             Sign Up
                         </Button>
                         <p className='flex items-center gap-2'>
